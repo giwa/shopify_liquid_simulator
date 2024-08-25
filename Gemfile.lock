@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    shopify_liquid_tags (0.1.0)
+    shopify_liquid_simulator (0.1.0)
       liquid (~> 5.0)
 
 GEM
@@ -29,7 +29,7 @@ PLATFORMS
 DEPENDENCIES
   liquid
   rspec
-  shopify_liquid_tags!
+  shopify_liquid_simulator!
 
 BUNDLED WITH
    2.3.26

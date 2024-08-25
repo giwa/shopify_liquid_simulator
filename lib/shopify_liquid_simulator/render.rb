@@ -1,5 +1,5 @@
-module ShopifyLiquidTags
-  class RenderTag < Liquid::Tag
+module ShopifyLiquidSimulator
+  class Render < Liquid::Tag
     class << self
       attr_writer :snippet_provider
 
