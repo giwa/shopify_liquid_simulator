@@ -67,7 +67,7 @@ The first road map is implementing features for testing snippets.
 | hmac_sha1 | filter | ✓ | | |
 | hmac_sha256 | filter | ✓ | | |
 | join | filter | ✓ | ✓ | |
-| json | filter | ✓ | | |
+| json | filter | ✓ | | ✓ |
 | last | filter | ✓ | ✓ | |
 | lstrip | filter | ✓ | ✓ | |
 | map | filter | ✓ | ✓ | |
