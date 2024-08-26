@@ -79,10 +79,10 @@ The first road map is implementing features for testing snippets.
 | prepend | filter | ✓ | ✓ | |
 | remove | filter | ✓ | ✓ | |
 | remove_first | filter | ✓ | ✓ | |
-| remove_last | filter | ✓ | | |
+| remove_last | filter | ✓ | ✓ | |
 | replace | filter | ✓ | ✓ | |
 | replace_first | filter | ✓ | ✓ | |
-| replace_last | filter | ✓ | | |
+| replace_last | filter | ✓ | ✓ | |
 | reverse | filter | ✓ | ✓ | |
 | round | filter | ✓ | ✓ | |
 | rstrip | filter | ✓ | ✓ | |
