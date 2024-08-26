@@ -46,10 +46,10 @@ The first road map is implementing features for testing snippets.
 | append | filter | ✓ | ✓ | |
 | at_least | filter | ✓ | ✓ | |
 | at_most | filter | ✓ | ✓ | |
-| base64_decode | filter | ✓ | | |
-| base64_encode | filter | ✓ | | |
-| base64_url_safe_decode | filter | ✓ | | |
-| base64_url_safe_encode | filter | ✓ | | |
+| base64_decode | filter | ✓ | ✓ | |
+| base64_encode | filter | ✓ | ✓ | |
+| base64_url_safe_decode | filter | ✓ | ✓ | |
+| base64_url_safe_encode | filter | ✓ | ✓ | |
 | camelize | filter | ✓ | | |
 | capitalize | filter | ✓ | ✓ | |
 | ceil | filter | ✓ | ✓ | |
