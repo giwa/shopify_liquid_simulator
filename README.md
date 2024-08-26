@@ -71,7 +71,7 @@ The first road map is implementing features for testing snippets.
 | last | filter | ✓ | ✓ | |
 | lstrip | filter | ✓ | ✓ | |
 | map | filter | ✓ | ✓ | |
-| md5 | filter | ✓ | | |
+| md5 | filter | ✓ | | ✓ |
 | minus | filter | ✓ | ✓ | |
 | modulo | filter | ✓ | ✓ | |
 | newline_to_br | filter | ✓ | ✓ | |
