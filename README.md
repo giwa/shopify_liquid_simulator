@@ -62,7 +62,7 @@ The first road map is implementing features for testing snippets.
 | escape_once            | filter   | ✓              | ✓          |                        |
 | first                  | filter   | ✓              | ✓          |                        |
 | floor                  | filter   | ✓              | ✓          |                        |
-| handleize              | filter   | ✓              |            |                        |
+| handleize              | filter   | ✓              |            | △                      |
 | hmac_sha1              | filter   | ✓              |            |                        |
 | hmac_sha256            | filter   | ✓              |            |                        |
 | join                   | filter   | ✓              | ✓          |                        |

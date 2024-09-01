@@ -195,4 +195,64 @@ RSpec.describe ShopifyLiquidSimulator::Filters do
       end
     end
   end
+  
+  describe '#handleize filter' do
+    it 'converts a simple string to handle format' do
+      template = "{{ 'Hello World' | handleize }}"
+      expect(render(template)).to eq('hello-world')
+    end
+
+    it 'converts a string with multiple spaces to handle format' do
+      template = "{{ 'Foo    Bar' | handleize }}"
+      expect(render(template)).to eq('foo-bar')
+    end
+
+    xit 'converts a string with special characters to handle format' do
+      template = "{{ 'Special@#{$Characters}!' | handleize }}"
+      expect(render(template)).to eq('special-characters')
+    end
+
+    it 'removes leading and trailing special characters' do
+      template = "{{ '--Trim This--' | handleize }}"
+      expect(render(template)).to eq('trim-this')
+    end
+
+    it 'handles empty string' do
+      template = "{{ '' | handleize }}"
+      expect(render(template)).to eq('')
+    end
+
+    it 'converts numbers to handle format' do
+      template = '{{ 12345 | handleize }}'
+      expect(render(template)).to eq('12345')
+    end
+
+    it 'handles nil value' do
+      template = '{{ nil_value | handleize }}'
+      assigns = { 'nil_value' => nil }
+      expect(render(template, assigns)).to eq('')
+    end
+
+    it 'works with variables in a Liquid template' do
+      template = "{% assign data = 'Test Data 123' %}{{ data | handleize }}"
+      expect(render(template)).to eq('test-data-123')
+    end
+
+    it 'produces consistent results for the same input' do
+      template = "{{ 'Consistent Result' | handleize }}"
+      result1 = render(template)
+      result2 = render(template)
+      expect(result1).to eq(result2)
+    end
+
+    it 'handles mixed case input' do
+      template = "{{ 'MiXeD cAsE' | handleize }}"
+      expect(render(template)).to eq('mixed-case')
+    end
+
+    it 'handles input with only special characters' do
+      template = "{{ '@#$%^&*()' | handleize }}"
+      expect(render(template)).to eq('')
+    end
+  end
 end
