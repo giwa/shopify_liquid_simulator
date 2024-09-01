@@ -8,6 +8,7 @@ Gem::Specification.new do |s|
   s.files       = Dir['lib/**/*']
   s.homepage    = 'https://rubygems.org/gems/shopify_liquid_simulator'
   s.license     = 'MIT'
+  s.add_dependency 'activesupport', '~> 7.2.1'
   s.add_dependency 'liquid', '~> 5.0'
   s.add_development_dependency 'rspec', '~> 3.0'
 end

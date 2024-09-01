@@ -63,8 +63,8 @@ The first road map is implementing features for testing snippets.
 | first                  | filter   | ✓              | ✓          |                        |
 | floor                  | filter   | ✓              | ✓          |                        |
 | handleize              | filter   | ✓              |            | △                      |
-| hmac_sha1              | filter   | ✓              |            |                        |
-| hmac_sha256            | filter   | ✓              |            |                        |
+| hmac_sha1              | filter   | ✓              |            | △                      |
+| hmac_sha256            | filter   | ✓              |            | △                      |
 | join                   | filter   | ✓              | ✓          |                        |
 | json                   | filter   | ✓              |            | ✓                      |
 | last                   | filter   | ✓              | ✓          |                        |
@@ -85,8 +85,8 @@ The first road map is implementing features for testing snippets.
 | reverse                | filter   | ✓              | ✓          |                        |
 | round                  | filter   | ✓              | ✓          |                        |
 | rstrip                 | filter   | ✓              | ✓          |                        |
-| sha1                   | filter   | ✓              |            |                        |
-| sha256                 | filter   | ✓              |            |                        |
+| sha1                   | filter   | ✓              |            | △                      |
+| sha256                 | filter   | ✓              |            | △                      |
 | size                   | filter   | ✓              | ✓          |                        |
 | slice                  | filter   | ✓              | ✓          |                        |
 | sort                   | filter   | ✓              | ✓          |                        |
@@ -103,8 +103,8 @@ The first road map is implementing features for testing snippets.
 | upcase                 | filter   | ✓              | ✓          |                        |
 | url_decode             | filter   | ✓              | ✓          |                        |
 | url_encode             | filter   | ✓              | ✓          |                        |
-| url_escape             | filter   | ✓              |            |                        |
-| url_param_escape       | filter   | ✓              |            |                        |
+| url_escape             | filter   | ✓              |            | △                      |
+| url_param_escape       | filter   | ✓              |            | △                      |
 | where                  | filter   | ✓              | ✓          |                        |
 
 Legend:
