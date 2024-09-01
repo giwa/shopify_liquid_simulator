@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     shopify_liquid_simulator (0.1.0)
+      activesupport (~> 7.2.1)
       liquid (~> 5.0)
 
 GEM
