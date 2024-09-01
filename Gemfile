@@ -2,5 +2,7 @@ source 'https://rubygems.org'
 
 gemspec
 
-gem 'rspec'
+gem 'activesupport'
 gem 'liquid'
+gem 'rspec'
+gem 'rubocop'
