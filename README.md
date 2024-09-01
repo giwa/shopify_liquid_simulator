@@ -49,7 +49,7 @@ The first road map is implementing features for testing snippets.
 | base64_encode          | filter   | ✓              | ✓          |                        |
 | base64_url_safe_decode | filter   | ✓              | ✓          |                        |
 | base64_url_safe_encode | filter   | ✓              | ✓          |                        |
-| camelize               | filter   | ✓              |            |                        |
+| camelize               | filter   | ✓              |            | △                      |
 | capitalize             | filter   | ✓              | ✓          |                        |
 | ceil                   | filter   | ✓              | ✓          |                        |
 | compact                | filter   | ✓              | ✓          |                        |
@@ -110,6 +110,7 @@ The first road map is implementing features for testing snippets.
 Legend:
 
 - ✓: Implemented
+- △: Implemented But not working as expected in same case
 - Empty: Not implemented
 
 ## Contributing

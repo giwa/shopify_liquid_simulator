@@ -3,8 +3,8 @@ require 'spec_helper'
 RSpec.describe ShopifyLiquidSimulator::Render do
   before(:all) do
     Liquid::Template.register_tag('render', ShopifyLiquidSimulator::Render)
-    
-    ShopifyLiquidSimulator::Render.snippet_provider = ->(name) {
+
+    ShopifyLiquidSimulator::Render.snippet_provider = lambda { |name|
       {
         'simple' => 'Hello, {{ name }}!',
         'for_loop' => 'Item: {{ item }}',
