@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'shopify_liquid_simulator'
-  s.version     = '0.1.1'
+  s.version     = '0.1.2'
   s.summary     = 'Shopify Liquid simulator'
   s.description = 'Simulate Shopify Liquid for testing purposes'
   s.authors     = ['Ken Takagiwa']
